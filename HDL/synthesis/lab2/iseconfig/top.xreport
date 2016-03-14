@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-02-16T15:42:35</DateModified>
+  <DateModified>2016-03-14T17:27:52</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>2014-03-20T11:47:08</SummaryTimeStamp>
-  <SavedFilePath>//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/synthesis/lab2/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/synthesis/lab2\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/materija/ra170-2013/lprs2/lab2/HDL/synthesis/lab2/iseconfig/top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/materija/ra170-2013/lprs2/lab2/HDL/synthesis/lab2\</ImplementationReportsDirectory>
   <DateInitialized>2014-03-10T14:57:35</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

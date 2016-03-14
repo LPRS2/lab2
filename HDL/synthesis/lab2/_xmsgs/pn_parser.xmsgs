@@ -8,40 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/coregen/char_rom/char_rom_def.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/coregen/dcm108MHz.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/coregen/dcm25MHz.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/coregen/dcm50MHz.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/coregen/dcm75MHz.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/char_rom.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/graphics_mem.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/text_mem.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/top.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/vga.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/vga_sync.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;//samba03/nastavni_materijali/lprs2/vezbe/lab2/HDL/source/rtl/vhdl/vga_top.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/materija/ra170-2013/lprs2/lab2/HDL/source/rtl/vhdl/top.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
