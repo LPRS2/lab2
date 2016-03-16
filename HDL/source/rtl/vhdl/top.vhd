@@ -9,10 +9,12 @@
 --    Simple test for VGA control
 --
 -------------------------------------------------------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
+
 
 entity top is
   generic (
@@ -157,6 +159,11 @@ architecture rtl of top is
   signal dir_pixel_column    : std_logic_vector(10 downto 0);
   signal dir_pixel_row       : std_logic_vector(10 downto 0);
 
+	type color_array is array(7 downto 0) of std_logic_vector(23 downto 0);
+	signal colors : color_array := (
+		x"ffffff", x"cccc00", x"00ccff", x"00cc00", 
+		x"e600e6", x"ff0000", x"0000ff", x"000000" );
+		
 begin
 
   -- calculate message lenght from font size
@@ -246,11 +253,17 @@ begin
     blue_o             => blue_o     
   );
   
+  
+  
   -- na osnovu signala iz vga_top modula dir_pixel_column i dir_pixel_row realizovati logiku koja genereise
   --dir_red
   --dir_green
   --dir_blue
- 
+  
+  dir_red <= colors( conv_integer( dir_pixel_column(10 downto 8) ) )( 23 downto 16 );
+  dir_green <= colors( conv_integer( dir_pixel_column(10 downto 8) ) )( 15 downto 8 );
+  dir_blue <= colors( conv_integer( dir_pixel_column(10 downto 8) ) )( 7 downto 0 );
+  
   -- koristeci signale realizovati logiku koja pise po TXT_MEM
   --char_address
   --char_value
